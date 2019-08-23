@@ -1,0 +1,17 @@
+﻿version: '2.1'
+services:
+    datapower:
+        image: ibmcom/datapower
+        container_name: datapower
+        restart: always
+        environment:
+            - DATAPOWER_ACCEPT_LICENSE=true
+            - DATAPOWER_INTERACTIVE=true
+            - DATAPOWER_WORKER_THREADS=4
+        ports:
+            - "9090:9090"
+        volumes:
+            - /tmp/:/tmp2/
+            #- ./registry/certs/:/certs/
+            - ./datapower-tutorials/using-datapower-in-kubernetes/datapower/config:/drouter/config
+            - ./datapower/datapower-tutorials/using-datapower-in-kubernetes/datapower/local:/drouter/local          
