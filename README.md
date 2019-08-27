@@ -1,11 +1,8 @@
-
-
 Firmware upgrade
 http://websphereeai.blogspot.com/2015/10/upgrading-firmware-on-your-websphere.html
 
 
 #############################################################################################################################
-
 
 	docker kill springbootsoapservice
 	docker rm springbootsoapservice
@@ -35,18 +32,13 @@ http://websphereeai.blogspot.com/2015/10/upgrading-firmware-on-your-websphere.ht
    -p 8000-8010:8000-8010 \
    --name datapower \
    ibmcom/datapower
-   
-   
-   
-      
+
     configure; web-mgmt 0 9090 9090; write memory
    
     show int
     show int mode
     show web-mgmt
     write memory
-    
-    
     
 Zmiana certyfikatu konsoli administracyjnej.
  
