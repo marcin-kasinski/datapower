@@ -51,3 +51,8 @@ Select or create one of the Custom SSL server types with the corresponding certi
     Use a Server Profile with the Custom SSL server profile
     Use a Server SNI Profile with the Custom SSL SNI server profile 
     
+    
+    
+Convert XML to JSON
+https://blogs.perficient.com/2015/02/06/datapowers-handling-of-restful-services-via-json/
+    
